@@ -12,10 +12,10 @@ body, html {
   background-attachment: fixed;
   font-family: 'Homemade Apple', cursive;
   text-align: center;
-  opacity: .7;
+  opacity: 1;
 }
 h1:hover {
-  opacity: 1;
+  opacity: .7;
 }
 #box{
   background-color: black;
