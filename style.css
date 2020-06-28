@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+
+body, html {
+  height: 100%;
+  padding: 5px;
+  color: white;
+  background-color: black;
+  background-image: url("background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Homemade Apple', cursive;
+  text-align: center;
+}
+h1 {
+  opacity: .8;
+}
+h1:hover {
+  opacity: 0;
+  transition: opacity 3s ease-out 100ms;
+}
+#box{
+  background-color: black;
+  display: grid;
+  width: 75vh;
+  height: 75vh;
+  margin: auto;
+  margin-top: 25px;
+}
