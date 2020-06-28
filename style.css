@@ -20,8 +20,8 @@ h1:hover {
 #box{
   background-color: black;
   display: grid;
-  width: 75%;
-  height: 75%;
+  width: 75vh;
+  height: 75vh;
   margin: auto;
   margin-top: 25px;
 }
