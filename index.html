@@ -19,10 +19,10 @@
         for (let i = 0; i < 2304; i++){
           let square = document.createElement("div");
           square.style.backgroundColor = 'black';
-          square.addEventListener("mouseenter", function(){
+          square.addEventListener("mouseover", function(){
             square.style.backgroundColor = colors[Math.floor(Math.random()*7)];
             })
-            box.appendChild(square);
+          box.appendChild(square);
           }
       }
      generate();
