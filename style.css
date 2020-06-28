@@ -13,12 +13,8 @@ body, html {
   font-family: 'Homemade Apple', cursive;
   text-align: center;
 }
-h1 {
-  opacity: .8;
-}
 h1:hover {
-  opacity: 0;
-  transition: opacity 3s ease-out 100ms;
+  opacity: 0.8;
 }
 #box{
   background-color: black;
