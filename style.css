@@ -12,10 +12,12 @@ body, html {
   background-attachment: fixed;
   font-family: 'Homemade Apple', cursive;
   text-align: center;
-  opacity: 1;
+}
+h1 {
+  opacity: .7;
 }
 h1:hover {
-  opacity: .7;
+  opacity: 1;
 }
 #box{
   background-color: black;
@@ -24,4 +26,10 @@ h1:hover {
   height: 75vh;
   margin: auto;
   margin-top: 25px;
+}
+@media only screen and (max-width: 600px) {
+  #box {
+    width: 450px;
+    height: 450px;
+  }
 }
